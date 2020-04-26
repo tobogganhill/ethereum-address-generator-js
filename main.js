@@ -9,7 +9,7 @@ const EthereumTx = require('ethereumjs-tx')
 // Generate a random mnemonic (uses crypto.randomBytes under the hood), defaults to 128-bits of entropy
 // 128 bits of entropy are enough. The whole and only point of considering entropy is to make sure that the system can resist brute force attacks: the space of possible values must be so large that any attacker could only try a negligible proportion of the values in non-ludicrous time.
 // Entropy is a way to express the unpredictability of a character or string. It is based on the number of characters (the set) and the length of a given string.
-//One can think of entropy as the randomness of a string. A password with high entropy is theoretically harder to brute force.
+// One can think of entropy as the randomness of a string. A password with high entropy is theoretically harder to brute force.
 
 // This will return false
 var isValid = BIP39.validateMnemonic("Enter your mnemonic here")
